@@ -19,7 +19,7 @@
     {
       "type": "vcs",
       "url": "https://github.com/spo0okie/select2.git"
-    },
+    }
   ],
   "homepage": "https://github.com/kartik-v/yii2-widget-select2",
   "type": "yii2-extension",
