@@ -1,5 +1,5 @@
 {
-  "name": "kartik-v/yii2-widget-select2",
+  "name": "spo0okie/yii2-widget-select2",
   "description": "Enhanced Yii2 wrapper for the Select2 jQuery plugin (sub repo split from yii2-widgets).",
   "keywords": [
     "yii2",
@@ -10,6 +10,16 @@
     "dropdown",
     "jquery",
     "plugin"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/spo0okie/select2.git"
+    },
   ],
   "homepage": "https://github.com/kartik-v/yii2-widget-select2",
   "type": "yii2-extension",
@@ -23,7 +33,7 @@
   ],
   "require": {
     "kartik-v/yii2-krajee-base": ">=3.0.4",
-    "select2/select2": ">=4.0.0"
+    "spo0okie/select2": ">=4.0.0"
   },
   "autoload": {
     "psr-4": {
